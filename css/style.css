@@ -6,7 +6,25 @@ header {
     border-radius: 10px;
 }
 
-nav
+h2 {
+    text-decoration: underline;
+}
+
+:lang(fr) , :lang(is) , :lang(it) {
+    font-style: italic;
+}
+
+.character {
+    font-weight: bold;
+}
+
+a {
+    color: black
+}
+
+body {
+    background-image: linear-gradient(#765729, black);
+}
 
 main
 
