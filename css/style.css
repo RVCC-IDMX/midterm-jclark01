@@ -1,16 +1,52 @@
 /* Journey to the Center of the Earth Practicum */
 /* Hi I'm James Clark */
 
-header {
-    border: 1px solid #886644;
-    border-radius: 10px;
+header, nav, main, aside, footer {
+    border: 3px solid #886644;
+    background-color: rgba(255, 255, 255, .75);
+    box-shadow: inset 16px 16px 20px rgba(0, 0, 0, .55);
+    margin: 10px 76px 10px 76px;
 }
+/* Code reference from 
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow 
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp 
+https://www.w3schools.com/css/css_margin.asp */
+
+header {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-image: url(../img/cave.jpg);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    padding: 10px;
+      
+
+    /* margin: ; */
+}
+/* Code reference from 
+https://www.w3schools.com/css/css_font.asp 
+https://www.w3schools.com/cssref/css3_pr_text-shadow.asp */
+
+
+nav {
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+}
+    /* margin: ; 
+    padding: ; */
+
+    /* display: flex;
+    justify-content: center; */
+
 
 h2 {
     text-decoration: underline;
 }
 
-:lang(fr) , :lang(is) , :lang(it) {
+:lang(fr) , :lang(is) , :lang(it) , :lang(id) {
     font-style: italic;
 }
 
@@ -19,15 +55,51 @@ h2 {
 }
 
 a {
-    color: black
+    color: black 
 }
+
+a:hover {
+    color: #A52A2A;
+  }
 
 body {
-    background-image: linear-gradient(#765729, black);
+    background-image: linear-gradient(#765729, black);    
 }
 
-main
+main {
+    font-size: large;
+    padding: 35px 34px 35px 34px;
+} 
+/* Code reference from 
+https://www.w3schools.com/css/css_padding.asp */
 
-aside
 
-footer
+#cover {
+    border: 3px solid #886644;
+    float: left;
+    margin: 20px;
+    box-shadow: inset 16px 26px 30px rgba(0, 0, 0, .75); 
+    /* padding: ; */
+}
+/* Code reference from 
+https://www.w3schools.com/css/css_float.asp */
+
+
+/* h2 + p::first-line {
+    font-size: 30pt;
+Code reference from 
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstline */
+
+
+aside {
+    padding: 35px 34px 35px 34px;
+} 
+
+footer {
+    padding: 36px 0px 26px 0px;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px; 
+    /* margin: ; 
+    padding: ; */
+}
