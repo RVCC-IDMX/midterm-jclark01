@@ -1,13 +1,13 @@
 /* Journey to the Center of the Earth Practicum */
 /* Hi I'm James Clark */
 
-header, nav, main, aside, footer {
+header, nav, aside, footer, main, aside {
     border: 3px solid #886644;
     background-color: rgba(255, 255, 255, .75);
     box-shadow: inset 16px 16px 20px rgba(0, 0, 0, .55);
     margin: 10px 76px 10px 76px;
 }
-/* Code reference from 
+/* Code references from 
 https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow 
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp 
 https://www.w3schools.com/css/css_margin.asp */
@@ -21,26 +21,20 @@ header {
     font-size: large;
     text-align: center;
     text-shadow: 3px 3px 5px black;
-    padding: 10px;
-      
-
-    /* margin: ; */
+    padding: 20px 0px 20px 0px;
 }
-/* Code reference from 
+/* Code references from 
 https://www.w3schools.com/css/css_font.asp 
-https://www.w3schools.com/cssref/css3_pr_text-shadow.asp */
+https://www.w3schools.com/cssref/css3_pr_text-shadow.asp 
+https://www.w3schools.com/css/css_padding.asp */
 
 
 nav {
     text-align: center;
     padding: 8px 0px 8px 0px;
 }
-    /* margin: ; 
-    padding: ; */
-
     /* display: flex;
     justify-content: center; */
-
 
 h2 {
     text-decoration: underline;
@@ -70,16 +64,11 @@ main {
     font-size: large;
     padding: 35px 34px 35px 34px;
 } 
-/* Code reference from 
-https://www.w3schools.com/css/css_padding.asp */
-
 
 #cover {
     border: 3px solid #886644;
     float: left;
-    margin: 20px;
-    box-shadow: inset 16px 26px 30px rgba(0, 0, 0, .75); 
-    /* padding: ; */
+    margin: 5px 28px 5px 0px;
 }
 /* Code reference from 
 https://www.w3schools.com/css/css_float.asp */
@@ -100,6 +89,4 @@ footer {
     text-align: center;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px; 
-    /* margin: ; 
-    padding: ; */
 }
