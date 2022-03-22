@@ -121,3 +121,13 @@ footer {
         grid-template-columns: auto auto auto;
     }
 }
+/* Code reference from 
+https://www.w3schools.com/css/css_grid.asp */
+
+/* @media screen and (min-width: 1024px){
+    main{
+        display: grid;
+        
+    }
+} */
+/* main code got messed up while trying to create desktop layout */
